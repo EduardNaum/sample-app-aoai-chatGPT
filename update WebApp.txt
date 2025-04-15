@@ -1,0 +1,5 @@
+# Launch the command below to update the WebApp in Azure, but to function properly you need:
+# 1. close first the Visual Studio
+# 2. launch the command in the application folder (E:\edi\Work\Dev\VStudio-repos\sample-app-aoai-chatGPT)
+# 2. , using a Powershell with administrator privileges
+az webapp up --runtime PYTHON:3.11 --sku B1 --name chat-webapp-test-jedi --resource-group OpenAI
